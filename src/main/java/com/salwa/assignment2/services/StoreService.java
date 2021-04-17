@@ -11,7 +11,5 @@ public interface StoreService {
 
     void addToStore(Store store);
 
-    void removeStore(Long id);
-
     Store findStoreById(int id);
 }

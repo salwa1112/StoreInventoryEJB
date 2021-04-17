@@ -37,15 +37,6 @@ public class StoreServiceImpl implements StoreService {
         em.persist(store);
     }
 
-    @Override
-    public void removeStore(Long id) {
-        Store storeToDelete = em.find(Store.class, id);
-        if (storeToDelete != null) {
-            em.remove(storeToDelete);
-            //print out the store id in the server log
-            System.out.println("Store-delete " + id);
-        }
-    }
 
     @Override
     public Store findStoreById(int id) {

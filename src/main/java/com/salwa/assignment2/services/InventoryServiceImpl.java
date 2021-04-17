@@ -25,7 +25,7 @@ public class InventoryServiceImpl implements InventoryService {
     @PersistenceContext
     private EntityManager em;
 
-    //clear textboxs
+    //clear list
     @Override
     public void clearList() {
         Query clearInventory = em.createNamedQuery("Inventory.findAll");
