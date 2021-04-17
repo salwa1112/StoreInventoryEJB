@@ -1,0 +1,6 @@
+com\salwa\assignment2\entity\Inventory.class
+com\salwa\assignment2\services\InventoryService.class
+com\salwa\assignment2\services\StoreServiceImpl.class
+com\salwa\assignment2\services\StoreService.class
+com\salwa\assignment2\entity\Store.class
+com\salwa\assignment2\services\InventoryServiceImpl.class
